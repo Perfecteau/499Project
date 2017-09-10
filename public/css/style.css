@@ -1,0 +1,83 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+.login, .signup
+{
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+/*Contact us page*/
+.contact-form
+{
+	padding:15px;
+}
+.contact-button
+{
+	cursor:pointer;
+	text-align: center;
+	color:white;
+	background-color:#343a40; 
+	margin:15px;
+	padding:5px;
+	border-color:#343a40;
+	border-style:solid;
+}
+.contact-button:hover{
+	text-decoration:none;
+	background-color:white; 
+	color:#343a40;
+}
+.vehicle-info
+{
+	font-weight:700;
+	border-color:transparent;
+	color:#343a40;
+}
+.vehicle-info-label
+{
+	padding:20px;
+	font-weight:700;
+	color:#343a40;
+}
+.rent-button
+{
+	cursor:pointer;
+	background-color:#343a40;
+	color:white;
+	box-shadow: none;
+	font-weight:700;
+	padding:15px;
+	margin:15px;
+	border-color:#343a40;
+	border-style:solid;
+}
+.rent-button:hover{
+	text-decoration:none;
+	background-color:white; 
+	color:#343a40;
+}
+.vehicle-categories{
+	text-decoration:none;
+	background-color:#343a40; 
+	color:white;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+	border-color:#343a40;
+	border-style:solid;
+}
+.vehicle-categories:hover{
+	text-decoration:none;
+	background-color:white; 
+	color:#343a40;
+}
+ #map {
+        height: 400px;
+        width: 100%;
+       }
