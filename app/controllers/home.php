@@ -1,13 +1,15 @@
 <?php
-
+session_start();
 class Home extends Controller
 {
 
 	public function index()
 	{	
 		//Loading the home page
-		$this->loadView('home/index');
+		$this->loadView('home/index', ['viewName' => 'Home']);
+		$_SESSION['loggedIn'] = 0;
 	}
+
 
 	public function about()
 	{	

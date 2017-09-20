@@ -1,6 +1,6 @@
-<div class="login text-center">
+<div class="login text-center" style="background-color:white;border:4px solid #343a40;">
 
-  <h1 style="margin-top:35px;"><?php echo $viewData['company'] .' '. $viewData['model'] ; ?></h1>
+  <h1 style="margin-top:15px;"><?php echo $viewData['company'] .' '. $viewData['model'] ; ?></h1>
 
   <div class="row">
     <div class="col-sm-4"></div>

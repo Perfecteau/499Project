@@ -1,63 +1,52 @@
-<h1 class="text-center text-lg-left"  style="margin-top:35px;margin-bottom:35px">Vehicle Lineup</h1>
+<ul class="nav nav-tabs" style="margin-top:10%">
+  <li class="nav-item">
+    <a class="nav-link vehicle-categories" href="#">Sedans</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link vehicle-categories" href="#">Sport</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link vehicle-categories" href="#">Trucks</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link vehicle-categories" href="#">SUVS</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link vehicle-categories" href="#">All</a>
+  </li>
+<li class="nav-item" style="margin-left:53%">
+  <input id="text" class="input" name="vehicle" placeholder="Search for vehicle" type="text" value=""/>
+  <button class="vehicle-categories" type="submit"><span class="fa fa-search fa-icon"></span></button>
+  </li>
+</ul>
 
-<div class="row" style="margin-left:10%;margin-bottom:20px">
-  <div class="col-sm-2"><a class="vehicle-categories" href="#">Sedans</a></div>
-  <div class="col-sm-2"><a class="vehicle-categories" href="#">Sport</a></div>
-  <div class="col-sm-2"><a class="vehicle-categories" href="#">Trucks</a></div>
-  <div class="col-sm-2"><a class="vehicle-categories" href="#">SUVs</a></div>
-  <div class="col-sm-2"><a class="vehicle-categories" href="#">Vans</a></div>
-  <div class="col-sm-2"><a class="vehicle-categories" href="#">All</a></div>
+
+<div class="row text-center text-lg-left" style="background-color:white;border:4px solid #343a40;padding:10px">
+
+  <?php
+    for ($i=0; $i < 8; $i++) { 
+
+      echo '<div class="col-lg-3 col-md-4 col-xs-6">
+              <h5>Bentley Continental</h5>
+              <a href='.URL.'vehicle/Bentley/Continental class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="http://localhost/vhs/app/images/bentley-continental.png" alt="">
+              </a>
+            </div>';
+    }
+    ?>
 </div>
 
-<div class="row text-center text-lg-left">
-
-  <div class="col-lg-3 col-md-4 col-xs-6">
-    <h5>Bentley Continental</h5>
-    <a href="../../vehicle/index/Bentley/Continental" class="d-block mb-4 h-100">
-      <img class="img-fluid img-thumbnail" src="../../../app/images/bentley-continental.png" alt="">
-    </a>
-  </div>
-  <div class="col-lg-3 col-md-4 col-xs-6">
-    <h5>Bentley Continental</h5>
-    <a href="#" class="d-block mb-4 h-100">
-      <img class="img-fluid img-thumbnail" src="../../../app/images/bentley-continental.png" alt="">
-    </a>
-  </div>
-  <div class="col-lg-3 col-md-4 col-xs-6">
-    <h5>Bentley Continental</h5>
-    <a href="#" class="d-block mb-4 h-100">
-      <img class="img-fluid img-thumbnail" src="../../../app/images/bentley-continental.png" alt="">
-    </a>
-  </div>
-  <div class="col-lg-3 col-md-4 col-xs-6">
-    <h5>Bentley Continental</h5>
-    <a href="#" class="d-block mb-4 h-100">
-      <img class="img-fluid img-thumbnail" src="../../../app/images/bentley-continental.png" alt="">
-    </a>
-  </div>
-  <div class="col-lg-3 col-md-4 col-xs-6">
-    <h5>Bentley Continental</h5>
-    <a href="#" class="d-block mb-4 h-100">
-      <img class="img-fluid img-thumbnail" src="../../../app/images/bentley-continental.png" alt="">
-    </a>
-  </div>
-  <div class="col-lg-3 col-md-4 col-xs-6">
-    <h5>Bentley Continental</h5>
-    <a href="#" class="d-block mb-4 h-100">
-      <img class="img-fluid img-thumbnail" src="../../../app/images/bentley-continental.png" alt="">
-    </a>
-  </div>
-  <div class="col-lg-3 col-md-4 col-xs-6">
-    <h5>Bentley Continental</h5>
-    <a href="#" class="d-block mb-4 h-100">
-      <img class="img-fluid img-thumbnail" src="../../../app/images/bentley-continental.png" alt="">
-    </a>
-  </div>
-  <div class="col-lg-3 col-md-4 col-xs-6">
-    <h5>Bentley Continental</h5>
-    <a href="#" class="d-block mb-4 h-100">
-      <img class="img-fluid img-thumbnail" src="../../../app/images/bentley-continental.png" alt="">
-    </a>
-  </div>
+<div class="pagination" style="margin-left: 35%">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a class="active" href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
 </div>
+
+
+
 

@@ -6,7 +6,7 @@ class Vehicle extends Controller
 	public function index($company = '', $model='')
 	{	
 		//set vehicle model
-		$vehicle = $this->loadModel('Vehicle');
+		$vehicle = $this->loadModel('Vehicle', ['viewName' => 'Vehicles']);
 
 		$vehicle->company = $company;
 		$vehicle->model = $model;
