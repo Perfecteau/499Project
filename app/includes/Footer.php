@@ -7,7 +7,7 @@
        <div class="container">
         <div class="row vcenter">
           <div class="pull-left col-lg-4 col-xs-12">
-            <p style="color:white">Copyright &copy;2016 by Company</p>
+            <p style="color:white">Copyright &copy;2017 by Lancer Rental Inc.</p>
           </div>
           <div class="col-lg-4 col-lg-offset-4" style="text-align: center">
             <a href="#"><i style="color:white;font-size:2em" class="fa fa-linkedin-square fa-icon"></i></a>
@@ -22,8 +22,8 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="http://localhost/vhs/public/vendor/jquery/jquery.min.js"></script>
-  <script src="http://localhost/vhs/public/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="<?php echo URL ?>vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo URL ?>vendor/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 

@@ -4,16 +4,13 @@
 
   <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
     <div class="contact-form">
-     <label for="name">Your name:</label><br />
-     <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+     <input id="name" class="input" name="name" placeholder="Your Name" style="text-align: center;" type="text" value="" size="30" /><br />
    </div>
    <div class="contact-form">
-     <label for="email">Your email:</label><br />
-     <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+     <input id="email" class="input" name="email" placeholder="Your Email" style="text-align: center;" type="text" value="" size="30" /><br />
    </div>
    <div class="contact-form">
-     <label for="message">Your message:</label><br />
-     <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+     <textarea id="message" class="input" style="text-align: center;" placeholder="Questions, Comments or Concerns" name="message" rows="7" cols="30"></textarea><br />
    </div>
    <input class="contact-button" d="submit_button" type="submit" value="Send email" />
  </form>	
